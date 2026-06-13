@@ -2,6 +2,7 @@
 import streamlit as st
 import os
 from snowflake.snowpark.functions import col
+import requests  
 
 
 # Write directly to the app
@@ -45,7 +46,6 @@ if ingredients_list:
         st.success('Your Smoothie is ordered!', icon="✅")
 
 
-import requests  
     
 
         
